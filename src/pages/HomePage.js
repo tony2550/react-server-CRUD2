@@ -24,7 +24,7 @@ const HomePage = () => {
     <div>
       <hr />
       <h1>Home 화면</h1>
-      <h3>article{article[0].title}</h3>
+      <h3>통신 성공 첫번째 글 제목 가져오기 : {article[0].title}</h3>
     </div>
   );
 };

@@ -53,7 +53,11 @@ const WritePage = ({ history }) => {
         </Form.Group>
         <Form.Group controlId="exampleForm.ControlSelect2">
           <Form.Label>본문</Form.Label>
-          <Form.Control type="text" name="content" multiple></Form.Control>
+          <Form.Control
+            type="text"
+            name="content"
+            onChange={changeValue}
+          ></Form.Control>
         </Form.Group>
         <Button onClick={submit} variant="outline-success">
           글 저장하기

@@ -6,32 +6,11 @@ import PostCard from '../components/PostCard';
 const ListPage = () => {
   const [posts, setPosts] = useState([
     {
-      id: 1,
-      title: 'content1',
-      content: 'aaaaaaaaaa',
-      author: 'a',
-      created: '2020.01.20',
-    },
-    {
-      id: 2,
-      title: 'content2',
-      content: 'bbbbbbb',
-      author: 'b',
-      created: '2020.01.20',
-    },
-    {
-      id: 3,
-      title: 'content3',
-      content: 'ccccccccccccc',
-      author: 'c',
-      created: '2020.01.20',
-    },
-    {
-      id: 4,
-      title: 'content4',
-      content: 'dddddd',
-      author: 'd',
-      created: '2020.01.20',
+      id: '',
+      title: '',
+      content: '',
+      author: '',
+      created: '',
     },
   ]);
 
